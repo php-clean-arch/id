@@ -1,0 +1,27 @@
+{
+    "source": {
+        "directories": [
+            "src"
+        ]
+    },
+    "timeout": 10,
+    "logs": {
+        "text": "tests/infection/infection.log",
+        "summary": "tests/infection/summary.log",
+        "json": "tests/infection/infection-log.json",
+        "perMutator": "tests/infection/per-mutator.md",
+        "github": true,
+        "badge": {
+            "branch": "master"
+        }
+    },
+    "phpUnit": {
+        "configDir": "../../phpunit/config"
+    },
+    "mutators": {
+        "@default": true
+    },
+    "testFramework": "phpunit",
+    "minMsi": 100,
+    "minCoveredMsi": 100
+}

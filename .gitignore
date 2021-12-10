@@ -1,0 +1,17 @@
+vendor/
+
+# PHPUnit personal config
+tests/phpunit/config/phpunit.xml
+
+# Cache files
+tests/phpunit/.cache
+
+# Coverage reports
+tests/phpunit/coverage/**/*.*
+
+# Mutation reports
+tests/infection/infection.log
+tests/infection/infection-log.json
+tests/infection/per-mutator.md
+tests/infection/summary.log
+

@@ -1,0 +1,31 @@
+{
+    "name": "php-clean-arch/id",
+    "version": "0.1.0",
+    "type": "library",
+    "description": "FILL ME",
+    "authors": [
+        {
+            "name": "Adrien Cuisse",
+            "email": "adrien.cuisse@epitech.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpCleanArch\\Id\\": "src/",
+            "PhpCleanArch\\Id\\Tests\\": "tests/phpunit"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "php-clean-arch/identity": "0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "infection/infection": "^0.25.4"
+    },
+    "scripts": {
+        "test": "php -d memory_limit=-1 vendor/bin/phpunit --configuration=tests/phpunit/config/phpunit.xml.dist",
+        "mutate": "php -d memory_limit=-1 vendor/bin/infection --threads=12 --configuration=tests/infection/config/infection.json.dist",
+        "clear": "rm -rf tests/{infection/*.{json,log,md},phpunit/{.cache/{test-results,code-coverage/*},coverage/*}}"
+    }
+}
