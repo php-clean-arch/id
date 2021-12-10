@@ -2,7 +2,7 @@
     "name": "php-clean-arch/id",
     "version": "0.1.0",
     "type": "library",
-    "description": "FILL ME",
+    "description": "Integer identity implementation for our entities",
     "authors": [
         {
             "name": "Adrien Cuisse",
