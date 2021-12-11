@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1942ccb0635a42511d645d0368efc68f",
+    "content-hash": "4b9b0a681b9c7cb2abc8d8cc35e7ab46",
     "packages": [
         {
             "name": "php-clean-arch/identity",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-clean-arch/identity.git",
-                "reference": "4cec2696fac43a29aee9234211cd6e29a0575b14"
+                "reference": "6b9820104933c25c8a7aa79b4c3248ca2da31d99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-clean-arch/identity/zipball/4cec2696fac43a29aee9234211cd6e29a0575b14",
-                "reference": "4cec2696fac43a29aee9234211cd6e29a0575b14",
+                "url": "https://api.github.com/repos/php-clean-arch/identity/zipball/6b9820104933c25c8a7aa79b4c3248ca2da31d99",
+                "reference": "6b9820104933c25c8a7aa79b4c3248ca2da31d99",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.0",
-                "php-clean-arch/value-object": "0.2"
+                "php-clean-arch/value-object": "0.3"
             },
             "type": "library",
             "autoload": {
@@ -40,22 +40,22 @@
             "description": "Defines what an identity is for the data we handle in our application",
             "support": {
                 "issues": "https://github.com/php-clean-arch/identity/issues",
-                "source": "https://github.com/php-clean-arch/identity/tree/0.2"
+                "source": "https://github.com/php-clean-arch/identity/tree/0.3"
             },
-            "time": "2021-12-10T21:29:04+00:00"
+            "time": "2021-12-11T22:18:55+00:00"
         },
         {
             "name": "php-clean-arch/value-object",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-clean-arch/value-object.git",
-                "reference": "e93aa903515c5e17816c96325f43d59805fd864c"
+                "reference": "423531f3aec6f9290983d86c5cc8a179363d74aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-clean-arch/value-object/zipball/e93aa903515c5e17816c96325f43d59805fd864c",
-                "reference": "e93aa903515c5e17816c96325f43d59805fd864c",
+                "url": "https://api.github.com/repos/php-clean-arch/value-object/zipball/423531f3aec6f9290983d86c5cc8a179363d74aa",
+                "reference": "423531f3aec6f9290983d86c5cc8a179363d74aa",
                 "shasum": ""
             },
             "require": {
@@ -77,9 +77,9 @@
             "description": "Provides the behaviour to expect from a value-object",
             "support": {
                 "issues": "https://github.com/php-clean-arch/value-object/issues",
-                "source": "https://github.com/php-clean-arch/value-object/tree/0.2"
+                "source": "https://github.com/php-clean-arch/value-object/tree/0.3"
             },
-            "time": "2021-12-10T21:22:27+00:00"
+            "time": "2021-12-11T22:11:38+00:00"
         }
     ],
     "packages-dev": [

@@ -3,10 +3,11 @@
 namespace PhpCleanArch\Id\Tests;
 
 use Generator;
-use PHPUnit\Framework\TestCase;
 use PhpCleanArch\Id\Id;
+use PHPUnit\Framework\TestCase;
 use PhpCleanArch\Id\IdInterface;
 use PhpCleanArch\Id\InvalidIdException;
+use PhpCleanArch\ValueObjects\DummyValueObject;
 use PhpCleanArch\ValueObjects\ValueObjectInterface;
 
 /**
